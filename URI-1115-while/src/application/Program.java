@@ -10,7 +10,7 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Insira as coordenadas X e Y: ");
+		System.out.print("Insira as coordenadas X e Y, ou zero para encerrar aplicação: ");
 		int X = sc.nextInt();
 		int Y = sc.nextInt();
 		
